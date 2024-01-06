@@ -1,6 +1,8 @@
+#ETL SCD using Snowflake Tasks, Streams & Stored Procedure
+
 <img width="596" alt="image" src="https://github.com/diyaliza/ETL-Snowflake-AWS/assets/120042912/8beb0dc8-3e8e-4497-91f1-c3dfaba98cc0">
 
-The project is an ETL demonstration of data that is loaded into S3, which will be transformed into 3 differnt stages of Snowflake DBMS. 
+- The project is an ETL demonstration of data that is loaded into S3, which will be transformed into 3 differnt stages of Snowflake DBMS. 
 The data is loaded into S3 using a python scipt using Boto3. 
 The S3 bucket has been configured with an event trigger, when objects are inserted into the bucket. Once the bucket triggers the event with the destination of the snowpipe that is configured in the Snowflake.
 The Snowflake has 3 different schemas - Bronze, Silver and Gold. The bronze schema has a stage - SOURCE_DATA_CUSTOMER_STAGE which accepts the csv files that gets added in the S3 bucket 
