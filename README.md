@@ -1,4 +1,4 @@
-#ETL SCD using Snowflake Tasks, Streams & Stored Procedure
+# ETL SCD using Snowflake Tasks, Streams & Stored Procedure
 
 <img width="596" alt="image" src="https://github.com/diyaliza/ETL-Snowflake-AWS/assets/120042912/8beb0dc8-3e8e-4497-91f1-c3dfaba98cc0">
 
