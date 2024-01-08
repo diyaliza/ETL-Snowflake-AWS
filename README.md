@@ -77,6 +77,7 @@ This business use case highlights how the data modernization and analytics trans
 ![image](https://github.com/diyaliza/ETL-Snowflake-AWS/assets/120042912/d0dba287-e92b-46fd-aa75-7183b7a7a3e0)
 
 <img width="912" alt="image" src="https://github.com/diyaliza/ETL-Snowflake-AWS/assets/120042912/d9365bed-6058-4517-a84a-2def9deb9db4">
+
 - External connection with DBT in the same Snowflake database (snowflake_dbt).
 - Two DBT models (silver and gold) are created.
 - The silver model connects to the Bronze schema's staging source and performs transformations, populating the silver table.
