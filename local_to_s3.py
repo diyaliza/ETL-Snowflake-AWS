@@ -11,7 +11,7 @@ def s3_upload(file_name, fold, bkt):
     return True
 
 if __name__=='__main__':
-    file_name = 'customer_data.csv'
+    file_name = 'Product_Dim.csv'
     s3_folder = 'raw_data'
     bucket = 'snowflake-project-etl'
 
