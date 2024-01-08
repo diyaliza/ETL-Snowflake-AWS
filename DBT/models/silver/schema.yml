@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  
+  - name: source
+    database: SNOWLAKE_DB
+    schema: BRONZE
+    tables:
+      - name: WORK_PRODUCT_COPY
+  - name: xfm
+    database: PC_DBT_DB
+    schema: SILVER
+    tables:
+      - name: WORK_PRODUCT_TRANSFORM
